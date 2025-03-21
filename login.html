@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+    <title>Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #0a0a0a, #9b59b6);
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .login-container {
+            background: rgb(12, 12, 12);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(236, 234, 234, 0.1);
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #f3e5e5;
+        }
+        .login-container input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .login-container button {
+            background: #9b59b6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .login-container button:hover {
+            background: #8e44ad;
+        }
+        a{
+          text-decoration: none;
+          color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button><br><br>
+            <a href="./Signup.html" target="_blank">Don't Have Account?</a>
+        </form>
+    </div>
+</body>
+</html>
